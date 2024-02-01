@@ -1,0 +1,4 @@
+{
+  "command.immersive_essentials.setspawn_success": "§6成功设置出生点到坐标 §f[§rx=%s, y=%s, z=%s, level=%s§f]",
+  "command.immersive_essentials.spawn_success": "§6已传送到出生点！"
+}
