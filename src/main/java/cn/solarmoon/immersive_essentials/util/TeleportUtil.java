@@ -33,8 +33,6 @@ public class TeleportUtil {
     }
 
     public static void tp(ServerPlayer player, SpawnData spawnData) {
-        TextUtil.debug(player, spawnData.getDimension(player).dimension().location().toString());
-        TextUtil.debug(player, spawnData.getDimensionKey().toString());
         tp(player, spawnData.getPos(), spawnData.getDimension(player), spawnData.getYaw(), spawnData.getPitch());
     }
 

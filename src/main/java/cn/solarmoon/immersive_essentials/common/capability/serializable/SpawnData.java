@@ -38,10 +38,6 @@ public class SpawnData implements INBTSerializable<CompoundTag> {
         return server.getLevel(key);
     }
 
-    public ResourceKey<Level> getDimensionKey() {
-        return ResourceKey.create(ResourceKey.createRegistryKey(this.world), this.dimension);
-    }
-
     public float getYaw() {
         return yaw;
     }
